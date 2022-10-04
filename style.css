@@ -49,6 +49,9 @@ body h1{
     .clock-frame {
         width: 40%;
         min-width: 330px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media(max-width: 378px){
@@ -56,6 +59,9 @@ body h1{
         width: 37%;
         min-width: 310px;
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
