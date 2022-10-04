@@ -23,7 +23,7 @@ body{
 
 
 body h1{
-    color: rgb(180, 224, 147);
+    color: rgb(253, 255, 251);
     font-size: 38px;
     margin-bottom: 0;
 }
@@ -63,7 +63,18 @@ body h1{
     padding: 15px;
     border: 7px solid grey;
 }
-
+@media(max-width: 427px){
+    .time{
+        background-color: black;
+        width: 100%;
+        border-radius: 10px;
+        display: flex;
+        color: wheat;
+        justify-content: space-between;
+        padding: 15px;
+        border: 7px solid grey;
+    }
+}
 
 .digit{
     margin: 0;
@@ -75,24 +86,20 @@ body h1{
 @media(max-width: 427px){
     .digit{
         font-size: 6vh;
+        color: rgb(240, 235, 227);
     }
 }
-@media(max-width: 378px){
-    .clock-frame {
-        width: 37%;
-        min-width: 310px;
-        margin: 0 auto;
-    }
-}
+
 
 
 body .by{
     font-size: 18px;
-    color: rgb(180, 224, 147);
+    color: rgb(246, 248, 245);
 }
 @media(max-width: 378px){
     body .by{
         margin-top: 210px;
+        color: antiquewhite;
     }
 }
 
